@@ -16,6 +16,6 @@ public class DemoApplication {
 	@RequestMapping(value = "/")
 	public String index(){
 		System.out.print("==one requery.");
-		return "Hello World!";
+		return "Hello Jenkins!";
 	}
 }
