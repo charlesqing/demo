@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping(value = "/")
 	public String index(){
-		return "Hello World! Welcome to goldmantis";
+		return "Hello World! Welcome to goldmantis,my name is charles,nice to meet you";
 	}
 }
