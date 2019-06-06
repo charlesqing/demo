@@ -15,8 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping(value = "/")
 	public String index(){
-		return "Hello World! 庄周梦蝴蝶,蝴蝶为庄周.一体更变易,万事良悠悠.
-乃知蓬莱水,复作清浅流.青门种瓜人,旧日东陵侯.
-富贵故如此,营营何所求.";
+		return "Hello World! 庄周梦蝴蝶,蝴蝶为庄周.一体更变易,万事良悠悠.乃知蓬莱水,复作清浅流.青门种瓜人,旧日东陵侯.富贵故如此,营营何所求.";
 	}
 }
